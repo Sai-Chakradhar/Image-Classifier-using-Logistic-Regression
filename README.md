@@ -9,6 +9,13 @@ I got the accuracy of 70% as I used only one node(neuron).
 I converted the image into a array of size (64*64*3,1)which is nothing but flatting the image.And then sent this to the node 
 as shown in the image.
 Each array element of 12288,1 has a weight and bias corresponding to it.I intialized the weights and bias to zeros in thr start 
-thrn updated the value using back propagation and learning rate using the formula
+thrn updated the value using back propagation and learning rate using the formula is
+
+
 w = w - learning_rate*dw
 b = b - learning_rate*db
+
+In the Code,
+U should change the file path of test_catvnoncat.h5 and also train_catvnoncat.h5
+I got a accuracy of 70% on test_set of these files.
+U can try on other images which are of sixe 28*28*3 and of the Binomial Classification.
