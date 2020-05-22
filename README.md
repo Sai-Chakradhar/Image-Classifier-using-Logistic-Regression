@@ -16,6 +16,8 @@ w = w - learning_rate*dw
 b = b - learning_rate*db
 
 In the Code,
-U should change the file path of test_catvnoncat.h5 and also train_catvnoncat.h5
+U should change the file path of test_catvnoncat.h5 and also train_catvnoncat.h5.
+<br>
 I got a accuracy of 70% on test_set of these files.
-U can try on other images which are of sixe 28*28*3 and of the Binomial Classification.
+U can try on other images which are of size 28,28,3 and of the Binomial Classification.
+<br>
